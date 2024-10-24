@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tombol WhatsApp</title>
+</head>
+<body>
+
+<button onclick="redirectToWhatsApp()">KLIK UNTUK PESAN</button>
+
+<script>
+function redirectToWhatsApp() {
+    var phoneNumber = '6282332229662';
+    var message = 'Halo!.';
+
+    var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+
+    window.open(url, '_blank');
+}
+</script>
+
+</body>
+</html>
