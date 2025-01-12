@@ -1,4 +1,4 @@
-  // active nav link
+  // active nav link &HOME/bin/termux-url-opener
   var ul = document.querySelector('#ul');
   var li = document.querySelectorAll('#li');
   
